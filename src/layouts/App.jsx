@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 
-export const App = ({ children }) => <>{children}</>
+export const App = ({ children}) => <>{children}</>
 
-App.PropTypes = {
-    children: PropTypes.node,
+App.propTypes = {
+    children: PropTypes.node.isRequired,
 }
